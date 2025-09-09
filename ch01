@@ -8,3 +8,21 @@ public class choajdif {
 		System.out.println(result);
 	}
 }
+
+
+//강제 타입 변환 (실습)
+package ch01;
+public class choajdif {
+	public static void main(String[] args) {
+		byte byteVal = 10;
+		int intVal = byteVal;
+		//byte byteVal = intVal;\
+		
+		char charVal = 65;
+		//char charVal = 'A';
+		//int intVall = charVal;
+		System.out.println(result);
+	}
+
+}
+
