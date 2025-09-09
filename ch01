@@ -21,6 +21,9 @@ public class choajdif {
 		char charVal = 65;
 		//char charVal = 'A';
 		//int intVall = charVal;
+		//byte byteVall = 65;
+		//int intVal2 = vyteVall;
+		//char charVal2 = byteVall;
 		System.out.println(result);
 	}
 
