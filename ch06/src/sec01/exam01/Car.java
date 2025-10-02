@@ -10,29 +10,42 @@ public class Car {
 		
 	}
 	
-	public Car(String company, int maxSpeed) {
-		this.company = company;
-		this.maxSpeed = maxSpeed;
-	}
+//	public Car(String company, int maxSpeed) {
+//		this.company = company;
+//		this.maxSpeed = maxSpeed;
+//	}
+//	
+//	
+//	public Car(int value) {
+//	}
+//	
+//	void SetMaxSpeed(int value) {
+//		maxSpeed = value;
+//	}
+//	
+//	void ShowInfo() {
+//		System.out.println("" + company);
+//		System.out.println("Company :" + company);
+//		System.out.println("Max speed : " + maxSpeed);
+//		System.out.println("Current Speed : " + speed);
+//		System.out.println("Current RPM : " + rpm);
+//	}
+//	
+//	void Hi() {
+//		int value = 0;
+//		System.out.println("Value : " + value);
+//	}
 	
-	
-	public Car(int value) {
-	}
-	
-	void SetMaxSpeed(int value) {
-		maxSpeed = value;
-	}
-	
-	void ShowInfo() {
-		System.out.println("" + company);
-		System.out.println("Company :" + company);
-		System.out.println("Max speed : " + maxSpeed);
-		System.out.println("Current Speed : " + speed);
-		System.out.println("Current RPM : " + rpm);
-	}
-	
-	void Hi() {
-		int value = 0;
-		System.out.println("Value : " + value);
-	}
+	 public car(String company) { 
+	 }
+	 
+	 public car(String company, String model) {
+	 }
+	 
+	 public car(String company,  String model, int maxSpeed) {
+	    
+	    this.company = company;
+	    this.model = model;
+	    this.maxSpeed = maxSpeed;
+	 }
 }
