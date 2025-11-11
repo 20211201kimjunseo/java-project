@@ -1,19 +1,20 @@
-package exam03;
-//js.Ch09.exam03
+package exam04.ex;
+
 public class Button {
     OnClickListener listener;
 
     public void SetOnClickListener(OnClickListener listener) {
         this.listener = listener;
     }
-// set 사용
+
     public void Touch() {
-        if(listener != null) {//null이 아님
+        if(listener != null) {
             listener.OnClick();
         }
     }
-//public 없어도됨
-    public interface OnClickListener {//interfacs js
+
+    public interface OnClickListener {
         void OnClick();
     }
+
 }

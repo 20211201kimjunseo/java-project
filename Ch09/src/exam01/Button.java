@@ -1,3 +1,4 @@
+//js.json
 package exam01;
 
 public class Button {
@@ -6,6 +7,7 @@ public class Button {
 	public void SetOnClickListener(OnClickListener listener) {
 		this.listener = listener;
 	}
+	
 	
 	public void Touch() {
 		if(listener != null) {
