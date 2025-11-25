@@ -9,12 +9,19 @@ public class Test {
 		
 	}
 	
-	public boolean equals(Object obj) {
-		if(obj instanceof Test) {
-			Test t = (Test) obj;
+//	public boolean equals(Object obj) {
+//		if(obj instanceof Test) {
+//			Test t = (Test) obj;
+//			if(this.id == t.id)
+//				return true;
+//		}
+//		
+//		
+//		return false;
+	
+	public boolean equals(Test t) {
 			if(this.id == t.id)
 				return true;
-		}
 		
 		
 		return false;
